@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Boucherie LA TOUPA : viande fraîche de qualité, découpe sur mesure et service de proximité.">
+  <title>Boucherie LA TOUPA</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Icônes Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <!-- Ton CSS -->
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#accueil">LA TOUPAL</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#accueil">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#produits">Nos produits</a></li>
+          <li class="nav-item"><a class="nav-link" href="#apropos">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="accueil" class="hero d-flex align-items-center text-center text-white">
+    <div class="container">
+      <p class="text-uppercase letter-spacing mb-2">Viande fraîche · Qualité · Proximité</p>
+      <h1 class="display-3 fw-bold">Boucherie LA TOUPAL</h1>
+      <p class="lead my-4">Des viandes soigneusement sélectionnées, découpées chaque jour pour votre table.</p>
+      <a href="#produits" class="btn btn-danger btn-lg me-2">Voir nos produits</a>
+      <a href="#contact" class="btn btn-outline-light btn-lg">Nous contacter</a>
+    </div>
+  </header>
+
+  <!-- PRODUITS -->
+  <section id="produits" class="py-5">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">Nos produits</h2>
+      <div class="row g-4">
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm product-card">
+            <div class="card-img-top product-img bg-boeuf"><span>🥩</span></div>
+            <div class="card-body">
+              <h5 class="card-title">Bœuf</h5>
+              <p class="card-text">Steaks, rôtis, viande hachée et morceaux à mijoter.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm product-card">
+            <div class="card-img-top product-img bg-mouton"><span>🍖</span></div>
+            <div class="card-body">
+              <h5 class="card-title">Mouton</h5>
+              <p class="card-text">Gigot, côtelettes et épaule, parfaits pour les grandes occasions.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm product-card">
+            <div class="card-img-top product-img bg-poulet"><span>🍗</span></div>
+            <div class="card-body">
+              <h5 class="card-title">Volaille</h5>
+              <p class="card-text">Poulets entiers, cuisses et filets, toujours frais.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm product-card">
+            <div class="card-img-top product-img bg-special"><span>🔪</span></div>
+            <div class="card-body">
+              <h5 class="card-title">Découpe sur mesure</h5>
+              <p class="card-text">Dites-nous ce que vous voulez, on le prépare devant vous.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- À PROPOS -->
+  <section id="apropos" class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <h2 class="section-title mb-4">Qui sommes-nous ?</h2>
+          <p>La Boucherie LA TOUPAL vous accueille avec un seul objectif : vous offrir une viande fraîche, de qualité, au meilleur prix.</p>
+          <ul class="list-unstyled">
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i>Viande fraîche tous les jours</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i>Hygiène et propreté rigoureuses</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i>Conseils et découpe personnalisée</li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <!-- Remplace par une vraie photo de la boucherie dans images/ -->
+          <div class="about-img rounded shadow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">Contact &amp; horaires</h2>
+      <div class="row g-4">
+
+        <div class="col-lg-5">
+          <ul class="list-unstyled contact-list">
+            <li><i class="bi bi-geo-alt-fill"></i> Adresse : exclusivement en ligne</li>
+            <li><i class="bi bi-telephone-fill"></i> Téléphone : 77-372-47-94</li>
+            <li><i class="bi bi-whatsapp"></i> WhatsApp : 77-372-47-94</li>
+            <li><i class="bi ebi-clock-fill"></i> Lundi – Samedi : 7h – 20h</li>
+            <li><i class="bi bi-clock"></i> Dimanche : 7h – 13h</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-7">
+          <form id="contactForm" novalidate>
+            <div class="mb-3">
+              <label for="nom" class="form-label">Votre nom</label>
+              <input type="text" class="form-control" id="nom" required>
+            </div>
+            <div class="mb-3">
+              <label for="telephone" class="form-label">Téléphone</label>
+              <input type="tel" class="form-control" id="telephone" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Votre commande ou message</label>
+              <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger">Envoyer</button>
+            <div id="formMessage" class="mt-3"></div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-4 text-center text-white">
+    <div class="container">
+      <p class="mb-0">&copy; <span id="annee"></span> Boucherie LA TOUPA — Tous droits réservés</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
