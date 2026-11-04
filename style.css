@@ -72,7 +72,7 @@ body {
 /* ===== À propos ===== */
 .about-img {
   height: 320px;
-  background: url("../image/hero.jpg") center / cover no-repeat, var(--creme);
+  background: url("/image/hero.jpg") center / cover no-repeat, var(--creme);
 }
 
 /* ===== Contact ===== */
