@@ -27,9 +27,10 @@ body {
 /* ===== Hero ===== */
 .hero {
   min-height: 100vh;
+  min-height: 100svh;
   background:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(102, 7, 8, 0.7)),
-    url("../images/hero.jpg") center / cover no-repeat,
+    url("../image/hero.jpg") center / cover no-repeat,
     var(--rouge-fonce);
 }
 .letter-spacing { letter-spacing: 3px; }
@@ -59,12 +60,11 @@ body {
 }
 .product-img {
   height: 160px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-size: 4rem;
+  width: 100%;
+  object-fit: cover;
 }
-.bg-boeuf   { background: #f4c7c3; }
+/*.bg-boeuf   { background: #f4c7c3; }
 .bg-mouton  { background: #f6dcc0; }
 .bg-poulet  { background: #fbe9a8; }
 .bg-special { background: #d9d9d9; }
@@ -81,3 +81,40 @@ body {
 
 /* ===== Footer ===== */
 footer { background: var(--rouge-fonce); }
+
+
+/* ===== Responsive ===== */
+
+/* Tablette et téléphone : navbar toujours visible */
+@media (max-width: 991.98px) {
+  #mainNav {
+    background: var(--rouge-fonce);
+  }
+  .navbar-collapse {
+    padding: 1rem 0;
+  }
+  .navbar-nav .nav-link {
+    padding: 0.7rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  }
+}
+
+/* Téléphone : bannière et textes plus petits */
+@media (max-width: 576px) {
+  .hero {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+  .hero .lead {
+    font-size: 1.05rem;
+  }
+  .section-title {
+    font-size: 1.6rem;
+  }
+  .about-img {
+    height: 220px;
+  }
+}
