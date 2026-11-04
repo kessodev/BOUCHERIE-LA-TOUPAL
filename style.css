@@ -30,7 +30,7 @@ body {
   min-height: 100svh;
   background:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(102, 7, 8, 0.7)),
-    url("/image/hero.jpg") center / cover no-repeat,
+    url("image/hero.jpg") center / cover no-repeat,
     var(--rouge-fonce);
 }
 .letter-spacing { letter-spacing: 3px; }
@@ -67,12 +67,12 @@ body {
 /*.bg-boeuf   { background: #f4c7c3; }
 .bg-mouton  { background: #f6dcc0; }
 .bg-poulet  { background: #fbe9a8; }
-.bg-special { background: #d9d9d9; }
+.bg-special { background: #d9d9d9; }*/
 
 /* ===== À propos ===== */
 .about-img {
   height: 320px;
-  background: url("/image/hero.jpg") center / cover no-repeat, var(--creme);
+  background: url("image/hero.jpg") center / cover no-repeat, var(--creme);
 }
 
 /* ===== Contact ===== */
